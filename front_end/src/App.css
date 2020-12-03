@@ -1,0 +1,113 @@
+
+.tranjsactionList  li{
+    margin: 5px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+.deletebtn{
+    
+    color:red;
+    display: none;
+    float:right;
+    
+}
+ .list-group-item:hover .deletebtn{
+    display:block;
+    
+}
+.list-group-item-minus{
+    margin:3px;
+    border-right-width: 5px;
+    border-right-color: crimson;
+    
+}
+.list-group-item-plus{
+    margin:3px;
+    border-right-width: 5px;
+    border-right-color: green;
+    
+}
+/*.scroll .hero {
+    transform: scale(0.98);
+  }
+   
+  .hero {
+    background-attachment: fixed;
+    transition: transform 0.5s ease-in-out;
+  }
+   
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.1) 100%
+    );
+  }
+   
+  .hero .container-fluid {
+    z-index: 10;
+  }
+*/
+/*login page*/
+
+
+
+.login{  
+        width: 482px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
