@@ -26,9 +26,9 @@ const Register = () => {
       name:name
     }
     //register
-    await Axios.post("http://localhost:5000/users/register",newUser)
+    await Axios.post("https://userauthapi.herokuapp.com/users/register",newUser)
     //get wetkn from login
-    const Response_from_login=await Axios.post("http://localhost:5000/users/login",{email,password})
+    const Response_from_login=await Axios.post("https://userauthapi.herokuapp.com/users/login",{email,password})
     setUserData({
       user:Response_from_login.data.user,
       webtkn:Response_from_login.data.webtkn

@@ -31,10 +31,10 @@ function App() {
         localStorage.setItem("auth-token","")
         webtkn=""
       }
-      const GetToken=await Axios.post("http://localhost:5000/users/IsTokenValid?",null,{headers:{"x-auth-token":webtkn}})
+      const GetToken=await Axios.post("https://userauthapi.herokuapp.com/users/IsTokenValid?",null,{headers:{"x-auth-token":webtkn}})
       //console.log(GetToken.data)
       if(GetToken.data){
-        const resToUser=await Axios.get("http://localhost:5000/users/",{headers:{"x-auth-token":webtkn}})
+        const resToUser=await Axios.get("https://userauthapi.herokuapp.com/users/",{headers:{"x-auth-token":webtkn}})
         setUserData({
           webtkn,
           user:resToUser.data

@@ -6,10 +6,10 @@
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "userauth":"npm start --prefix userauth",
+    "userauth": "npm start --prefix userauth",
     "front_end": "npm start --prefix front_end",
-    "dev": "concurrently \"npm run server\" \"npm run userauth\" \"npm run front_end\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix front_end && npm run build --prefix front_end"
+    "dev": "concurrently \"npm run server\" \"npm run front_end\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix front_end && npm run build --prefix front_end"
   },
   "author": "sandip neupane",
   "license": "MIT",
